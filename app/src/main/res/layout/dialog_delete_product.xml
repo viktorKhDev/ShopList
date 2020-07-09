@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:id="@+id/text_del_product"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+       android:layout_margin="10dp"
+        android:autofillHints=""
+        android:inputType=""
+        android:text="@string/text_del_product"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:targetApi="o" />
+
+    <RelativeLayout
+        android:layout_below="@+id/text_del_product"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_no_del_product"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_toStartOf="@id/btn_del_product"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/no"
+            android:textColor="@color/red" />
+
+        <Button
+            android:id="@+id/btn_del_product"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/button_bg"
+            android:text="@string/yes"
+            android:textColor="@android:color/white" />
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

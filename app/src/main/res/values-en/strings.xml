@@ -1,0 +1,63 @@
+<resources>
+    <string name = "app_name"> ShopList </string>
+    <string name = "text_view"> TextView </string>
+    <string name = "todo"> TODO </string>
+    <string name = "todo2"> TODO </string>
+    <string name = "prod_name"> Product Name </string>
+    <string name = "buttonInput"> Add </string>
+    <string name = "buttonCancel"> Cancel </string>
+    <string name = "checkbox"> CheckBox </string>
+    <string name = "btn_del_product"> DELETE </string>
+    <string name = "text_del_product"> Do you want to remove the product? </string>
+    <string name = "setting"> Settings </string>
+    <string name = "recipes"> Recipes </string>
+    <string name = "add_recipe"> Add recipe </string>
+    <string name = "clean"> Clear list </string>
+    <string name = "description1"> Click on “edit” to describe the recipe. </string>
+    <string name = "products"> Products </string>
+    <string name = "lists"> Lists </string>
+    <string name = "last_open"> Last opened </string>
+    <string name = "recipe"> Recipe </string>
+    <string name = "navigation_drawer_open"> Open navigation drawer </string>
+    <string name = "navigation_drawer_close"> Close navigation drawer </string>
+    <string name = "other"> Other </string>
+    <string name = "backup"> Backup </string>
+    <string name = "download"> Download </string>
+    <string name = "save"> Save </string>
+    <string name = "paste"> Paste </string>
+    <string name = "error"> Error </string>
+    <string name = "backup_read_error"> The recovery file is corrupt! </string>
+    <string name = "accept"> Confirm </string>
+    <string name = "support"> Technical Support </string>
+    <string name = "reference"> Help </string>
+    <string name = "instruction"> Instruction </string>
+    <string name = "support_text"> If you have questions, comments or suggestions regarding the application </string>
+    <string name = "yes"> Yes </string>
+    <string name = "no"> No </string>
+    <string name = "enter_the_title"> Enter a name </string>
+    <string name = "such_a_list_exists"> Such a list exists </string>
+    <string name = "such_a_product_exists"> Such product exists </string>
+    <string name = "such_a_recipe_exists"> Such a recipe exists </string>
+    <string name = "backup_file_created"> Recovery file created successfully </string>
+    <string name = "recipe_title"> Recipe name </string>
+    <string name = "shop_list"> "Shopping list" </string>
+    <string name = "warning_backup"> When you download a recovery file the current data is deleted! </string>
+    <string name = "ok"> Ok </string>
+    <string name = "clear_list"> Clear list? </string>
+    <string name = "save_file"> Save file </string>
+    <string name = "download_file"> Upload file </string>
+    <string name = "backup_read"> Recovery file uploaded </string>
+    <string name = "input_the_title"> Enter a name </string>
+    <string name = "recipes_for_dialog"> Recipes: </string>
+    <string name = "list_title"> List name </string>
+    <string name = "delete_list_q"> Delete list? </string>
+    <string name = "delete_recipe_q"> Delete Recipe? </string>
+    <string name = "edit"> Edit </string>
+    <string name="sort_summary">Sort items from first to last</string>
+    <string name="sort_title">Sort by time added</string>
+    <string name="support_email">viktor.kh.dev@gmail.com</string>
+
+
+
+
+</resources>

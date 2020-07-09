@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/lists_item_dv"
+            android:title="@string/lists"
+            android:icon="@drawable/ic_list_black_24dp">
+
+        </item>
+        <item
+            android:id="@+id/recipes_item_dv"
+            android:title="@string/recipes"
+            android:icon="@drawable/ic_recipe_list_black_24dp">
+
+        </item>
+    </group>
+
+    <item android:title="@string/other">
+        <menu>
+            <item
+                android:id="@+id/setting_item_dv"
+                android:title="@string/setting"
+                android:icon="@drawable/ic_settings_black_24dp"
+                />
+            <item
+            android:id="@+id/backup_item_dv"
+            android:title="@string/backup"
+            android:icon="@drawable/ic_backup_black_24dp"
+            >
+            </item>
+            <item
+                android:id="@+id/support"
+                android:title="@string/reference"
+                android:icon="@drawable/ic_error_outline_black_24dp"
+                />
+        </menu>
+    </item>
+
+</menu>

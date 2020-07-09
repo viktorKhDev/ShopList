@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+
+
+    <TextView
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:id="@+id/backup_text_warning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/warning_backup"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginTop="80dp">
+
+
+    </TextView>
+
+    <Button
+        android:id="@+id/btn_download_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="@color/white"
+        android:padding="5dp"
+        android:background="@drawable/button_bg_black_ripple"
+        android:text="@string/download_file">
+
+    </Button>
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_save_file"
+        android:layout_below="@id/btn_download_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="@color/white"
+        android:padding="5dp"
+        android:background="@drawable/button_bg_black_ripple"
+        android:text="@string/save_file">
+
+    </Button>
+
+
+
+</RelativeLayout>

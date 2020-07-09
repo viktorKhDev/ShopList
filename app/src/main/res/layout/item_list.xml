@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cl"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="@dimen/cardview_default_radius"
+    android:background="@color/background"
+    android:layout_margin="4dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/listName"
+            style="@style/Text_andika"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="4dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:gravity="top"
+            android:maxLength="@android:integer/config_shortAnimTime"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/text_view"
+            android:textColor="@android:color/background_dark"
+            android:textColorHint="@android:color/black"
+            android:textColorLink="@color/colorPrimary"
+            android:textSize="20sp" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginStart="10dp"
+    android:layout_marginBottom="8dp"
+    android:layout_gravity="bottom"
+    >
+    <TextView
+        android:id="@+id/text_list_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        style="@style/Text_andika"
+        android:text="yyyy-mm-dd HH:mm">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/text_list_ready"
+        android:layout_marginStart="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10/10"
+        android:lines="1"
+        style="@style/Text_andika">
+
+    </TextView>
+</LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4">
+
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/edit_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="10dp"
+            android:layout_centerVertical="true"
+
+            android:src="@drawable/ic_edit_black_24dp" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/delete_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/edit_image"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/ic_delete_forever_black_24dp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
